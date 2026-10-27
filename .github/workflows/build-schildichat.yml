@@ -1,7 +1,9 @@
 name: Build SchildiChat Android APK
 
-on:
+'on':
   workflow_dispatch:
+  push:
+    branches: [main]
 
 permissions:
   contents: read
